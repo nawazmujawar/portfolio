@@ -1,0 +1,11 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+}
+.headingTitle {
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+.aboutInfo {
+  color: rgb(132, 140, 146);
+}

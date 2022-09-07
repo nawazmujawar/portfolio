@@ -1,0 +1,18 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+}
+.cardSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.allProjectsText {
+  color: rgb(132, 140, 146);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.allProjectsText:hover {
+  cursor: pointer;
+}

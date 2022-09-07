@@ -1,0 +1,13 @@
+.chip {
+  margin: 10px;
+  margin-right: 40px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.chip > p {
+  margin: 0px;
+}
+.chip:hover {
+  transform: scale(1.5);
+}

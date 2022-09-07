@@ -1,0 +1,19 @@
+.workExp_designation {
+  margin: 0px;
+}
+.workExp_company {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.workExp_duration {
+  margin: 0px;
+  font-size: 14px;
+  color: rgb(132, 140, 146);
+}
+.workExp_description {
+  color: rgb(132, 140, 146);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
