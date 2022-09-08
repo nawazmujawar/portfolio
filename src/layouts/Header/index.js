@@ -7,7 +7,9 @@ const Header = () => {
       <nav className="navbar">
         <a href="/">Home</a>
         <a href="/projects">Projects</a>
-        <a href="/resume">Resume</a>
+        <a href="https://drive.google.com/file/d/1PlkxVknhlnJCtQkdt3YhRH6i56sz-hrK/view">
+          Resume
+        </a>
         <a href="/contact">Contact</a>
       </nav>
       <NightlightIcon />
