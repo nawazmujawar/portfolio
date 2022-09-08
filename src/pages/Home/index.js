@@ -1,4 +1,5 @@
 import React from "react";
+import CustomDrawer from "../../layouts/CustomDrawer";
 import Footer from "../../layouts/Footer";
 import Header from "../../layouts/Header";
 import About from "./About";
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <div className="homeContainer">
       <Header />
+      <CustomDrawer />
       <About />
       <Project />
       <TechSkill />

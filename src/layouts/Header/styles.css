@@ -12,3 +12,9 @@
   text-decoration: none;
   color: rgb(31, 32, 32);
 }
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+}

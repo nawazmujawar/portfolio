@@ -2,3 +2,8 @@
   margin: 0px auto;
   width: 60%;
 }
+@media screen and (max-width: 500px) {
+  .homeContainer {
+    width: 90%;
+  }
+}
