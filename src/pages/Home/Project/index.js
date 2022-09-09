@@ -45,9 +45,11 @@ const Project = () => {
           </div>
         ))}
       </div>
-      <p className="allProjectsText">
-        See all projects <ArrowRightAltIcon />
-      </p>
+      <a href="https://github.com/nawazmujawar">
+        <p className="allProjectsText">
+          See all projects <ArrowRightAltIcon />
+        </p>
+      </a>
     </div>
   );
 };

@@ -16,3 +16,6 @@
 .allProjectsText:hover {
   cursor: pointer;
 }
+.projectContainer > a {
+  text-decoration: none;
+}

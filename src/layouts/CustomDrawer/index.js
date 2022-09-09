@@ -12,6 +12,15 @@ import React from "react";
 import "./styles.css";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 
+const MENULIST = [
+  { path: "/", title: "Home" },
+  { path: "https://dev.to/nawazmujawar", title: "Blogs" },
+  {
+    path: "https://drive.google.com/file/d/1PlkxVknhlnJCtQkdt3YhRH6i56sz-hrK/view",
+    title: "Resume",
+  },
+];
+
 const CustomDrawer = () => {
   const [state, setState] = React.useState({
     top: false,
@@ -39,10 +48,10 @@ const CustomDrawer = () => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Home", "Projects", "Resume", "Contact"].map((text, index) => (
-          <ListItem key={text} disablePadding>
+        {MENULIST.map((menu, index) => (
+          <ListItem key={index} disablePadding>
             <ListItemButton>
-              <ListItemText primary={text} />
+              <a href={menu.path} className="menuTitle">{menu.title}</a>
             </ListItemButton>
           </ListItem>
         ))}

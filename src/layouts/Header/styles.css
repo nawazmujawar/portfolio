@@ -18,3 +18,9 @@
     display: none;
   }
 }
+.contactBtn {
+  color: rgb(31, 32, 32) !important;
+}
+.contactBtn:hover {
+  cursor: pointer;
+}
